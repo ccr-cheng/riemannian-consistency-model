@@ -7,6 +7,7 @@ Code by Chaoran Cheng & [Yusong Wang](https://github.com/yusowa0716), Nov 1, 202
 <p style="text-align: center;">
 <img src="assets/rcm.png" alt="Riemannian Consistency Model"/>
 </p>
+
 **Riemannian Consistency Model (RCM)** extends consistency models for the few-step generation setup on Riemannian manifolds, respecting the intrinsic geometry of the manifold by design to ensure better generation quality. Compared with the naive Euclidean consistency model on Riemannian manifolds, RCM achieves significant performance improvements in the two-step generation setup. Two variants of RCM are proposed: **Riemannian Consistency Distillation (RCD)** and **Riemannian Consistency Training (RCT)**. RCD distills a pre-trained Riemannian flow matching model into a few-step consistency model, whereas RCT trains a consistency model from scratch. We have proven the equivalence between RCD and RCT in our paper, relying on the mathematical property of the covariant derivative.
 
 ## Setup
