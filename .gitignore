@@ -158,7 +158,6 @@ configs/local/default.yaml
 .aim
 logs*/
 ckpt/
-*.ipynb
 
 *training-runs*/*
 datasets/*
