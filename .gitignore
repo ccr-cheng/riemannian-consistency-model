@@ -159,8 +159,6 @@ configs/local/default.yaml
 logs*/
 ckpt/
 
-*training-runs*/*
-datasets/*
 *amlt*
 *tmp/
 wandb/
